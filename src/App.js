@@ -46,7 +46,7 @@ function App() {
         {weather && (
           <div className="container">
             <div className="section section__inputs">
-              <input
+              <input className="inputWidth"
                 onKeyDown={enterKeyPressed}
                 type="text"
                 name="city"

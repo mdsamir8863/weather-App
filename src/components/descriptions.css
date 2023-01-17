@@ -35,3 +35,17 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .inputWidth {
+        background-color: red;
+        color: red;
+        width: 10rem;
+
+    }
+
+    h1,
+    h2 {
+        font-size: 1.2rem;
+    }
+}
